@@ -1,0 +1,3 @@
+(library
+ (public_name dbcaml_driver_sqlite)
+ (libraries riot uri dbcaml sqlite3))

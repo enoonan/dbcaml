@@ -30,3 +30,11 @@
  (depends ocaml dune)
  (tags
   (topics "database" "ocaml" "dbcaml")))
+
+(package
+ (name dbcaml_driver_sqlite)
+ (synopsis "Sqlite driver for dbcaml")
+ (description "Sqlite driver for dbcaml")
+ (depends ocaml dune)
+ (tags
+  (topics "database" "ocaml" "dbcaml")))
